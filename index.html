@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>docsifyGuide</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <meta name="description" content="Description">
+  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+
+  <!-- 主题 -->
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify/lib/themes/buble.css">
+  <!--<link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify/lib/themes/vue.css">-->
+  <!--<link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify/lib/themes/dark.css">-->
+  <!--<link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify/lib/themes/pure.css">-->
+  <!--<link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify/themes/dolphin.css">-->
+
+  <!-- 侧边栏logo样式 -->
+  <style>
+    .app-name-link > img{
+      width: 50%;
+    }
+  </style>
+</head>
+
+<body>
+  <!-- Loading dialog -->
+  <div id="app">正在加载...</div>
+  <script src="//cdn.jsdelivr.net/npm/docsify-edit-on-github"></script>
+  <script>
+    window.$docsify = {
+      // 自定义封面
+      coverpage: 'cover.md',
+      // 设置了封面后，开启网站只进入封面（默认封面和首页是一页，可以向下滑动）
+      onlyCover: true,
+
+      // 主页
+      homepage: 'index.md',
+
+      // 404页面
+      // notFoundPage: '404.md',
+
+      // 导航栏
+      loadNavbar: 'navbar.md',
+
+      // 是否隐藏侧边栏
+      // hideSidebar: 'true',
+
+      // 自定义侧边栏
+      loadSidebar: 'sidebar.md',
+      // 侧边栏顶部标题
+      name: '🏡',
+      // logo和name和图标二选一
+      // logo: '/media/blog.svg',
+      // 侧边栏顶部标题或logo链接
+      nameLink: 'http://111.231.13.144/',
+      // 侧边栏目录作为内容标题
+      autoHeader: true,
+      // 自定义侧边栏最大层级
+      subMaxLevel: 6,
+
+      // 小屏自动合并导航栏和侧边栏
+      // mergeNavbar: true,
+
+      // url变化自动滚动到顶部
+      auto2top: true,
+
+      // 内容距离顶部的高度
+      topMargin: 10,
+
+      // 样式主颜色
+      // themeColor: '#3F51B5',
+
+      // 右上角github小部件链接
+      repo: 'https://github.com/Andy-ac/MCSR-Wiki-Feedback/issues',
+
+      // 全文搜索
+      search: {
+        // （毫秒）过期时间一天
+        maxAge: 86400000,
+        paths: 'auto',
+        placeholder: '搜索关键词',
+        noData: '未能找到结果',
+        depth: '6'
+      },
+
+      // 路由映射，固定根目录的文件
+      alias: {
+        '/.*/sidebar.md': '/sidebar.md',
+        '/.*/navbar.md': '/navbar.md'
+      },
+
+      // edit-on-github
+      plugins: [
+        // 见：https://taqini.github.io/2020/04/08/docsify-plugins/#%E6%B3%A8%E5%86%8Clivere
+        function (hook, vm) {
+          // load livere
+          hook.beforeEach(function(content) {
+              var comment = "<div id='lv-container' data-id='city' data-uid='MTAyMC82MDMyOS8zNjc5Nw=='></div>\n\n----\n"
+              return content + comment;
+          });
+
+          hook.doneEach(function() {
+             (function(d, s) {
+                 var j, e = d.getElementsByTagName(s)[0];
+                 if (typeof LivereTower === 'function') { return; }
+                 j = d.createElement(s);
+                 j.src = 'https://cdn-city.livere.com/js/embed.dist.js';
+                 j.async = true;
+                 e.parentNode.insertBefore(j, e);
+             })(document, 'script');
+          });
+        },
+
+        // 末尾的/是必要的
+        // EditOnGithubPlugin.create('https://github.com/pycrab/docsifyGuide/blob/master/docs/')
+      ],
+
+      // 谷歌分析
+      // ga: 'UA-XXXXX-Y'
+    }
+  </script>
+  <script src="//cdn.jsdelivr.net/npm/docsify/lib/docsify.min.js"></script>
+
+  <script src="//cdn.jsdelivr.net/npm/docsify-copy-code"></script>
+  <script src="//unpkg.com/docsify-count/dist/countable.js"></script>
+  <script src="//unpkg.com/prismjs/components/prism-java.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/emoji.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/search.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/zoom-image.min.js"></script>
+
+<!--<script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/ga.min.js"></script>
+  
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/gitalk/dist/gitalk.css">
+  <script src="//cdn.jsdelivr.net/npm/gitalk/dist/gitalk.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/gitalk.min.js"></script>
+  <link rel="stylesheet" href="//cdn.bootcss.com/gitalk/1.5.0/gitalk.min.css">// gitalk评论插件
+  <script src="//cdn.bootcss.com/gitalk/1.5.0/gitalk.min.js"></script>// gitalk评论插件
+  <script src="//unpkg.com/gitalk/dist/gitalk.min.js"></script>
+  <script src="//unpkg.com/docsify/lib/plugins/gitalk.min.js"></script>
+  <script>
+    var gitalk = new Gitalk({
+    clientID: 'Ov23liMpTnk8CBrceNfN',
+    clientSecret: 'f42948dee9046c55090f1b054ae5c09cb96387b2',
+    repo: 'MCSR-Comments',
+    owner: 'Andy-ac',
+    admin:  ['Andy-ac'],
+    id: location.pathname, // 返回当前 URL 的路径部分作为id
+    language:'zh-CN', // 语言
+    distractionFreeMode: false,  // 无干扰模式
+    title: Gittalk,
+    // 见：https://zhuanlan.zhihu.com/p/341543249
+    // https://segmentfault.com/a/1190000018072952
+  })
+  // 监听URL中hash的变化，如果发现换了一个MD文件，那么刷新页面，解决整个网站使用一个gitalk评论issues的问题。
+  window.onhashchange = function(event){
+    if(event.newURL.split('?')[0] !== event.oldURL .split('?')[0]) {
+      location.reload()
+    }
+  }
+  gitalk.render('gitalk-container')
+  </script>
+
+  <script defer src="https://cdn.commento.io/js/commento.js"></script>
+  <div id="commento"></div>
+
+  <div class="commentbox"></div>
+  <script src="https://unpkg.com/commentbox.io/dist/commentBox.min.js"></script>
+  <script>
+    commentBox('5742113333444608-proj');
+  </script>
+  <style>
+    .commentbox {
+      position: relative;
+      margin-top: 20px;
+      width: 100%;
+      z-index: 9999;
+      background: white;
+    }
+  </style>
+  ---------------------------------------------------------
+  <div class="commentbox"></div>
+  <script src="https://unpkg.com/commentbox.io/dist/commentBox.min.js"></script>
+  <script>
+    commentBox('5742113333444608-proj');
+  </script>
+  <style>
+    .commentbox {
+      position: absolute;
+      bottom: 0;
+      width: 100%;
+      max-width: 800px; /* 限制最大宽度 */
+      margin-left: auto;
+      margin-right: auto;
+      z-index: 9999;
+      background: white;
+    }
+  </style>  
+  
+  <font size=0.1>彩蛋：我还随手开了个自己都不怎么玩的 MC 服务器，就这么多信息</font>
+  -->
+
+</body>
+
+</html>
