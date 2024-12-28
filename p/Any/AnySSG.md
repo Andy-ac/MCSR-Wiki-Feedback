@@ -8,7 +8,7 @@
 - [挖掘冷却](https://www.bilibili.com/video/BV1GS4y187za)
 - [1.14 SSG 教学](https://www.bilibili.com/video/BV1qm4y1Q7Xr)
 
-## 其它
+## 其他
 
 - [1.16+ SSG 早期历史](https://www.bilibili.com/video/BV1hF411b74X)
 - [1.9-1.15 SSG 早期历史](https://www.bilibili.com/video/BV1EU4y1u7d4)
