@@ -54,7 +54,3 @@
 
   - [基岩版主要项目速通国际排行榜](https://www.speedrun.com/mcbe)
   - [基岩版延伸项目速通国际排行榜](https://www.speedrun.com/mcbece)
-
-## 电脑配置推荐
-
-- 参照[绿皮书整理资源](https://docs.qq.com/sheet/DU1RIR05RR3NtWklY?tab=BB08J2)
