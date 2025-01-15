@@ -22,6 +22,6 @@
 - [<font color=#DCDCDC>FSG</font>](/p/Others/1.16+FSG)
 - [<font color=#DCDCDC>其他项目</font>](/p/Others/其他项目)
 - [<font color=Blue>其他项目问答板块</font>](/p/Others/其他项目问答板块)
-- [<font color=#DCDCDC>Bedrock Edition</font>](/p/Any/Bedrock.md)
+- [Bedrock Edition](/p/Any/Bedrock.md)
 - [资源合集与致谢](/p/Others/资源合集与致谢.md)
 - [反馈及贡献](/p/Others/反馈及贡献)
