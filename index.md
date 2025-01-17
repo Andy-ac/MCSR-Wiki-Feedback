@@ -4,7 +4,7 @@
 
 本网站将旨在收集整我的世界速通的相关技巧及资源，帮助大家更好的了解和学习速通技巧。本网站并不会完整地提供各种技巧，而是会有大量链接指向其他网站的各种资源（通常为视频网站或外置下载链接）。本网站希望通过整理零碎的知识点，不仅带领速通新手快速上手，而且帮助速通高手们快速了解最新的技巧。
 
-目前重点收录的速通项目资源包括：Java 版本 Speedrun 官网主要类别 (Main Category)：Any% Glitchless, Any%, All Achievements/Advancements (AA) 以及 Bedrock 版本的速通资源。如无特殊说明，以下内容均指 Java 版本速通。
+目前重点收录的速通项目资源包括：Java 版本 Speedrun 官网主要类别 (Main Category)：Any% Glitchless, Any%, All Achievements/Advancements (AA) 以及基岩版本的速通资源。如无特殊说明，以下内容均指 Java 版本速通。
 
 ## Java 各版本速通重要规则
 
