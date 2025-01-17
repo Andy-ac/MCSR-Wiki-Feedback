@@ -50,9 +50,16 @@
   - [Java 版随机种子速通国际排行榜（含未过审）(Google Doc)](https://docs.google.com/spreadsheets/u/0/d/10seM-w8FxJ15NOzP9ohpecuTSlvqfxvfMDIqw_NjvdA/htmlview#gid=2055147762)
   - [Java 版固定种子速通国际排行榜（含未过审）(Google Doc)](https://docs.google.com/spreadsheets/d/1ySda77TFo5ikc7j0HICDW8zGSHudQ__WydBykQVDKK0/edit?gid=27240383#gid=27240383&fvid=1548710976)
 
-  - QQ 群：
-    - MCSR Chat 517303974
-    - MCJE 速通·绿皮书 434382627
+- QQ 群：
+
+  - MCSR Chat 517303974
+  - MCJE 速通·绿皮书 434382627
+
+- Discord 链接：
+
+  - [Minecraft Java Speedrunning](https://discord.com/invite/jmdFn3C)
+  - [MCSR Ranked](https://discord.com/invite/nnjUSyDErj)
+  - [Filtered Seed Glitchless](https://discord.gg/Tsxv2h5R)
 
 - 基岩版本资源
 
