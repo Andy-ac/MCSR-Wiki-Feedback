@@ -1,3 +1,5 @@
 - [:star:首页:star:](/)​
 - [:book:1.16+:book:](/p/AnyGlitchless/1.16+AnyRSG)
+- [:book:Couriway Metafy 教程:book:](/p/CouriwayMetafyGuide/CouriwayMetafyGuide)
 - [:book:1.16 AA:book:](/p/AA/1.16AA)
+- [:book:API Doc v2:book:](/p/APIDoc_v2)

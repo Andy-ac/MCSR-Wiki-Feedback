@@ -52,7 +52,7 @@
       // logo和name和图标二选一
       // logo: '/media/blog.svg',
       // 侧边栏顶部标题或logo链接
-      nameLink: 'http://mcsrwiki.cn/',
+      nameLink: 'http://43.143.231.104/',
       // 侧边栏目录作为内容标题
       autoHeader: true,
       // 自定义侧边栏最大层级
@@ -92,24 +92,24 @@
       // edit-on-github
       plugins: [
         // 见：https://taqini.github.io/2020/04/08/docsify-plugins/#%E6%B3%A8%E5%86%8Clivere
-        function (hook, vm) {
+        //function (hook, vm) {
           // load livere
-          hook.beforeEach(function(content) {
-              var comment = "<div id='lv-container' data-id='city' data-uid='MTAyMC82MDMzNC8zNjgwMg=='></div>\n\n----\n"
-              return content + comment;
-          });
+          //hook.beforeEach(function(content) {
+          //    var comment = "<div id='lv-container' data-id='city' data-uid='MTAyMC82MDMzNC8zNjgwMg=='></div>\n\n----\n"
+          //    return content + comment;
+          //});
 
-          hook.doneEach(function() {
-             (function(d, s) {
-                 var j, e = d.getElementsByTagName(s)[0];
-                 if (typeof LivereTower === 'function') { return; }
-                 j = d.createElement(s);
-                 j.src = 'https://cdn-city.livere.com/js/embed.dist.js';
-                 j.async = true;
-                 e.parentNode.insertBefore(j, e);
-             })(document, 'script');
-          });
-        },
+          //hook.doneEach(function() {
+          //   (function(d, s) {
+          //       var j, e = d.getElementsByTagName(s)[0];
+          //       if (typeof LivereTower === 'function') { return; }
+          //       j = d.createElement(s);
+          //       j.src = 'https://cdn-city.livere.com/js/embed.dist.js';
+          //       j.async = true;
+          //       e.parentNode.insertBefore(j, e);
+          //   })(document, 'script');
+          //});
+        //},
 
         // 末尾的/是必要的
         // EditOnGithubPlugin.create('https://github.com/pycrab/docsifyGuide/blob/master/docs/')
