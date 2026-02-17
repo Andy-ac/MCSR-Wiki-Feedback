@@ -7,7 +7,7 @@ Couriway Mrtafy 速通教程 ([Ultimate Minecraft Speedrun Guide](https://metafy
 Couriway Metafy 速通教程中文版目录如下：
 
 - [第一章：Minecraft 速通简介和准备工作](/p/CouriwayMetafyGuide/Chapter_1.md)
-- [第二章：主世界](/p/CouriwayMetafyGuide/Chapter_2.md)
+- [第二章：刷种 & 主世界部分](/p/CouriwayMetafyGuide/Chapter_2.md)
 - [第三章：堡垒遗迹](/p/CouriwayMetafyGuide/Chapter_3.md)
 - [第四章：下界要塞](/p/CouriwayMetafyGuide/Chapter_4.md)
 - [第五章：盲传分段](/p/CouriwayMetafyGuide/Chapter_5.md)
@@ -29,13 +29,13 @@ Couriway Metafy 速通教程中文版目录如下：
 
 <div class="center">
 
-|  章节  |            标题             |                     翻译贡献者                      |
-| :----: | :-------------------------: | :-------------------------------------------------: |
-| 第一章 | Minecraft速通简介和准备工作 | [@shadow啥都没有(Bilibili)](https://b23.tv/KrnS11M) |
-| 第二章 |                             |                                                     |
-| 第三章 |                             |                                                     |
-| 第四章 |                             |                                                     |
-| 第五章 |                             |                                                     |
-| 第六章 |                             |                                                     |
+|  章节  |            标题             |                            翻译贡献者                             |
+| :----: | :-------------------------: | :---------------------------------------------------------------: |
+| 第一章 | Minecraft速通简介和准备工作 | [@shadow啥都没有(Bilibili)](https://space.bilibili.com/384072516) |
+| 第二章 |      刷种 & 主世界部分      |   [@Sean9914(Bilibili)](https://space.bilibili.com/2094685790)    |
+| 第三章 |                             |                                                                   |
+| 第四章 |                             |                                                                   |
+| 第五章 |                             |                                                                   |
+| 第六章 |                             |                                                                   |
 
 </div>

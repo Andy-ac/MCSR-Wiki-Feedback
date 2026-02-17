@@ -8,6 +8,7 @@
 - [外部工具](/p/外部工具)
 - [<font color=Blue>Couriway Metafy 教程</font>](/p/CouriwayMetafyGuide/CouriwayMetafyGuide)
   - [第一章：Minecraft 速通简介和准备工作](/p/CouriwayMetafyGuide/Chapter_1.md)
+  - [第二章：重置与主世界策略](/p/CouriwayMetafyGuide/Chapter_2.md)
 - [Any% Glitchless](/p/AnyGlitchless/AnyGlitchless)
   - [Any% RSG](/p/AnyGlitchless/AnyRSG)
     - [1.16+ Any% RSG](/p/AnyGlitchless/1.16+AnyRSG)

@@ -1,6 +1,6 @@
 本页面为 MCSR Ranked 数据库的 API 文档 (v2)，供开发者参考使用。
 
-<strong><font color=green>若要使用图形化筛种界面，请访问 [MCSR Ranked 种子查询工具](http://43.143.231.104:8080/)（待完善）。</font></strong>
+<strong><font color=green>若要使用图形化筛种界面，请访问 [MCSR Ranked 种子查询工具](http://43.143.231.104:8082)（待完善）。</font></strong>
 
 > MCSR Ranked 数据库包含了历史上所有 MCSR 排位赛的比赛、玩家详细信息以及 2025 年 11 月 13 日起的约 80% 的实际种子信息，该 API 目前主要提供对实际种子信息的获取功能
 
