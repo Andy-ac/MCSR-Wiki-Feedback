@@ -387,13 +387,13 @@ Linux用户在下列任选其一:
 - [Linux平台(X11)](https://its-saanvi.github.io/linux-mcsr/minecraft/x11/boat-eye.html)
 - [Linux平台(Wayland)](https://its-saanvi.github.io/linux-mcsr/minecraft/wayland/boat-eye.html)
 
-## 验证
+## 过审
 
 如果你已经坚持到这里，那么恭喜————你已经在成为一名出色玩家的路上了。若你希望将通关记录提交至 speedrun.com，则需要提供完整的通关录像，并至少完整展示一次F3界面，同时在提交说明中附上世界种子（通关后可在游戏聊天框中输入 /seed 获取）。速通规则的摘要版本可在 [https://www.speedrun.com/mc?rules=game](https://www.speedrun.com/mc?rules=game) 查看，或直接在 [speedrun.com](https://www.speedrun.com/mc) 页面点击 "显示规则" 按钮。
 
 ![image](/image/ch1/34.png)
 
-如果你的通过时间少于13分钟，你还需要在speedrun.com提交更多的证据才能通过验证，关于如何正确提交通关记录的更多信息，请观看[该视频](https://youtu.be/z2n2fCV1GY0)。
+如果你的通过时间少于13分钟，你还需要在speedrun.com提交更多的证据才能过审，关于如何正确提交通关记录的更多信息，请观看[该视频](https://youtu.be/z2n2fCV1GY0)。
 
 ### 录制
 
@@ -435,7 +435,7 @@ Linux用户在下列任选其一:
 
   > 确保 "基础（画布）分辨率" 设置为最高值，即与你的显示器分辨率保持一致。
 
-为符合 speedrun.com 的验证要求，你的录像至少需要在某一时刻能够清晰完整地显示 F3 界面，且不应有明显卡顿或模糊。在开始冲击排行榜之前，请务必确认你的录像是清晰可辨的。
+为符合 speedrun.com 的审核要求，你的录像至少需要在某一时刻能够清晰完整地显示 F3 界面，且不应有明显卡顿或模糊。在开始冲击排行榜之前，请务必确认你的录像是清晰可辨的。
 
 如果希望Ninjabrain Bot的画面也出现在OBS录制内容中，请进入Ninjabrain Bot的设置，进入 "OBS覆盖" 选项，勾选 "启用OBS覆盖" 及 "如果覆盖有一段时间没有更新，则隐藏覆盖"。然后，选中 "nb-overlay.png" 的文件路径并复制。
 
@@ -541,11 +541,11 @@ Linux用户在下列任选其一:
 
 12. 如何关闭视场角效果/下界传送门屏幕扭曲效果？
 
-    > 请再次打开ModCheck，但在点击 "全选推荐项" 前，勾选左侧的 "辅助功能" 复选框，会安装 Extra Options模组，该模组移植了高版本中提供的无障碍功能选项。关于成绩验证的重要事项：如果使用 Extra Options 模组，请避免执行在未安装此模组时可能无法实现的操作，例如：
+    > 请再次打开ModCheck，但在点击 "全选推荐项" 前，勾选左侧的 "辅助功能" 复选框，会安装 Extra Options模组，该模组移植了高版本中提供的无障碍功能选项。关于成绩过审的重要事项：如果使用 Extra Options 模组，请避免执行在未安装此模组时可能无法实现的操作，例如：
     >
     > - 在下界传送门中测量末影之眼
     > - 在穿戴着附魔灵魂疾行的靴子时站在灵魂沙上测量末影之眼
-    >   若未遵守此规定，speedrun.com 将拒绝验证你提交的通关记录。
+    >   若未遵守此规定，你的通关记录不会被 speedrun.com 通过。。
 
 13. speedrun.com 允许使用哪些资源包？
 
